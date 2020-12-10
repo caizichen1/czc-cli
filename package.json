@@ -4,7 +4,7 @@
   "description": "react脚手架",
   "main": "index.js",
   "bin": {
-    "my-cli": "bin/init.js"
+    "czc-cli": "bin/init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
