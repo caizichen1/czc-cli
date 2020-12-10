@@ -9,7 +9,6 @@ const { CreateCommand } = require('../src/command/create');
 
 program
   .version(package.version, '-v, --version')
-  .option('-i, --init', 'init something')
 
 // 调用command方法，创建一个create命令,同时create命令后面必须跟一个命令参数<project-name>
 program.command('create <project-name>')
@@ -32,7 +31,3 @@ program.command('create <project-name>')
 //解析对应参数
 program.parse(process.argv);
 
-//如果用户输入了上述参数，则会触发的事件
-if (program.init) {
-  console.log('init something')
-}
