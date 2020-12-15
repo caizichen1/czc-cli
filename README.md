@@ -1,7 +1,12 @@
 # czc-cli
 > 基于node.js开发的react脚手架
 
-## 安装
+## 开发
+```js
+npm i
+```
+
+## 全局安装
 ```js
 npm i czc-cli -g
 ```
